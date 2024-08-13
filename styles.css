@@ -1,0 +1,28 @@
+.p-show__bar__thumb {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 0px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    top: -75px !important;
+    left: -98px !important;
+    border: 1px solid white !important;
+}
+.u-min-w-0 {
+    z-index: 1000 !important;
+}
+.p-show__bar {
+    padding-left: 108px !important;
+}
+.c-navbar-left-nav {
+    padding-left: 92px !important;
+}
+
+.c-indx-table__thumb {
+    width: 85px !important;
+    height: 85px !important;
+}
+
+.c-grid-table__tr.js-indx-table__tr {
+    height: 100px !important; /* Adjusted height */
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Custom CSS for Photon-sol",
+  "version": "1.0",
+  "description": "Applies custom CSS to https://photon-sol.tinyastro.io/en/lp/ and https://photon-sol.tinyastro.io/en/discover/",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://photon-sol.tinyastro.io/en/lp/*", "https://photon-sol.tinyastro.io/en/discover"],
+      "css": ["styles.css"]
+    }
+  ]
+}
