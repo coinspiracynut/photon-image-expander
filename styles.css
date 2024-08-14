@@ -21,6 +21,8 @@
 .c-indx-table__thumb {
     width: 85px !important;
     height: 85px !important;
+    margin-top: -7px;
+    border-radius: 0 !important;
 }
 
 .c-grid-table__tr.js-indx-table__tr {
